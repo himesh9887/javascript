@@ -1,0 +1,60 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to top right, #00b4d8, #90e0ef); /* Blue gradient background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #333;
+}
+
+.container {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.8); /* Slightly transparent white */
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    width: 80%;
+    max-width: 400px;
+}
+
+input[type="date"] {
+    padding: 12px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    border: 2px solid #00b4d8;
+    border-radius: 8px;
+    outline: none;
+    width: 100%;
+    background: #f0f8ff;
+    color: #333;
+}
+
+button {
+    background: linear-gradient(to left, #ff7f50, #ff6347); /* Coral to tomato gradient */
+    color: white;
+    padding: 15px 30px;
+    font-size: 18px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    width: 100%;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background: linear-gradient(to left, #ff6347, #ff7f50); /* Reversed gradient on hover */
+}
+
+h1 {
+    margin-top: 20px;
+    font-size: 24px;
+    color: #333;
+}
