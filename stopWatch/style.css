@@ -1,0 +1,86 @@
+/* Dark Theme Styles */
+
+body {
+    background-color: #121212;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #1e1e1e;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+    text-align: center;
+    width: 300px;
+}
+
+h1, h2 {
+    color: #ffffff;
+}
+
+.stopwatch {
+    font-size: 2em;
+    margin: 20px 0;
+    font-weight: bold;
+    background-color: #333;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+button {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+button:active {
+    transform: scale(0.95);
+}
+
+#saved-times {
+    list-style: none;
+    padding: 0;
+    margin-top: 15px;
+}
+
+#saved-times li {
+    background-color: #333;
+    margin: 5px 0;
+    padding: 8px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.delete-btn {
+    background-color: #ff4444;
+    padding: 5px 10px;
+    border-radius: 3px;
+    font-size: 0.9em;
+}
+
+.delete-btn:hover {
+    background-color: #cc0000;
+}

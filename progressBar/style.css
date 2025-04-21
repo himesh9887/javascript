@@ -1,0 +1,31 @@
+/* Centering the Progress Bar */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* background-color: #f0f0f0; */
+    background-color: black;
+    margin: 0;
+}
+
+/* Progress Bar Container */
+#progress-container {
+    width: 50%;
+    background: #ddd;
+    height: 30px;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Progress Bar */
+#bar {
+    width: 0;
+    height: 100%;
+    background: #007bff; /* Blue color */
+    text-align: center;
+    line-height: 30px;
+    color: white;
+    font-weight: bold;
+}
